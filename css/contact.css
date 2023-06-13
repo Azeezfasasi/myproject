@@ -1,0 +1,132 @@
+.contact-title {
+    text-align: center;
+    font-size: 26px;
+    color: blue;
+}
+
+.map-container {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.map-container iframe {
+    width: 80%;
+}
+
+.contact-box {
+    display: block;
+    width: 90%;
+    margin: 25px auto 10px auto;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    width: 30%;
+    height: 25%;
+    text-align: center;
+    vertical-align: top;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.4);
+    padding-top: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    word-wrap: break-word;
+}
+
+.box:hover {
+    background-color: #ddd;
+}
+
+.box a {
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+
+.box a:hover {
+    background-color: deeppink;
+}
+
+.icon{
+    font-size: 30px;
+    color: blue;
+}
+
+.address {
+    font-size: 22px;
+}
+
+.social-container {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.social-container a {
+    margin: 0 10px;
+    color: black;
+}
+
+.form-container {
+    display: block;
+    width: 100%;
+}
+
+.my-form {
+    display: block;
+    width: 40%;
+    margin: 25px auto;
+}
+
+.form-title {
+    font-size: 24px;
+    text-align: center;
+    color: blue;
+}
+
+label {
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+}
+
+input[type=text], input[type=email] {
+    width: 100%;
+    font-size: 20px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input[type=text]:focus, input[type=email]:focus {
+    background-color: #eee;
+    color: blue;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.form-btn {
+    color: white;
+    background-color: blue;
+    padding: 5px 20px;
+    font-size: 25px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+    .box {
+        display: block;
+        width: 95%;
+        margin: 5px auto 20px auto;
+    }
+
+    .my-form {
+        width: 70%;
+    }
+}

@@ -1,0 +1,77 @@
+/* Style for the about details */
+.about-details {
+    display: block;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("img/school.jpg") fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    width: 70%;
+    margin: 40px auto;
+    padding: 70px 70px;
+}
+.about-details p {
+    font-size: 22px;
+}
+
+.details-btn {
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 14px 15px;
+    text-align: none;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.details-btn:hover {
+    background-color: deeppink;
+}
+
+/* Teachers section */
+.teacher {
+    display: block;
+    text-align: center;
+    background-color: #ddd;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.profile {
+    display: inline-block;
+    width: 30%;
+    background-color: lightblue;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 0;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+}
+
+.profile p {
+    font-size: 24px;
+    color: blue;
+}
+
+.profile a {
+    color: blue;
+    margin: 0 5px;
+}
+
+@media (max-width: 700px) {
+    .profile {
+        display: block;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .about-details {
+        width: 90%;
+        margin: 40px auto;
+        padding: 20px 10px;
+    }
+}

@@ -1,0 +1,43 @@
+/* style for the top header */
+.scroll-text {
+    font-size: 22px;
+    color: white;
+    margin-top: -20px;
+    margin-bottom: 15px;
+}
+.top-content {
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+    margin-bottom: 10px;
+    box-shadow: 0 6px 4px 2px rgb(0,0,0,0.4);
+}
+
+.top-content .top-link {
+    font-size: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.top-content .top-link:hover {
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 6px 4px 2px rgb(0,0,0,0.4);
+}
+
+.phone-container a {
+    font-size: 18px;
+    color: white;
+}
+
+.phone-container a:hover {
+    text-decoration: 1px underline white;
+}
+
+.phone-container i {
+    color: rgb(66, 235, 66);
+    font-size: 23px;
+}
+
+

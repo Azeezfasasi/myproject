@@ -1,0 +1,109 @@
+/* Style for the admission form */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.form-title {
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+.form-title span {
+    color: red;
+}
+
+.container {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: white;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+select {
+    font-size: 15px;
+}
+
+select:focus {
+    background-color: #ddd;
+}
+
+input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.register-btn {
+    background-color: blue;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.register-btn:hover {
+    opacity: 1;
+}
+
+a {
+    color: dodgerblue;
+}
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.skill-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.skill-btn button {
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.success {
+    font-size: 25px;
+    color: green;
+    padding: 5px;
+}
+
+@media (max-width: 700px) {
+    .container {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        padding: 16px;
+        background-color: white;
+    }
+}

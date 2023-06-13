@@ -1,0 +1,25 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta httpcontent-equiv="X-UA-Compatible" ="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Chaining</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("#p1").css("color", "red").slideUp(3000).slideDown(3000);
+            })
+        })
+    </script>
+</head>
+<body>
+    <h2>jQuery Chaining</h2>
+
+    <h2 id="p1">jQuery is fun!</h2>
+
+    <button>Click Me</button>
+    
+</body>
+</html>

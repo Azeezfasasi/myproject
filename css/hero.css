@@ -1,0 +1,85 @@
+/* style for hero section */
+.hero-start {
+    width: 100%;
+    /* background-image: url("img/business.jpg");
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: top;
+    opacity: 1; */
+    background-color: darkseagreen;
+    padding-bottom: 20px;
+}
+
+.hero-text {
+    display: inline-block;
+    width: 50%;
+    margin-left: 30px;
+    margin-top: -65px;
+} 
+
+.web {
+    color: red;
+    font-family: cursive;
+}
+
+.hero-text h2 {
+    color: blue;
+    font-weight: bolder;
+    font-size: 33px;
+}
+
+.hero-text p {
+    font-size: 25px;
+}
+
+.hero-btn {
+    border: none;
+    font-size: 25px;
+    background-color: navy;
+    color: white;
+    padding: 6px 10px;
+    text-decoration: none;
+    margin-right: 8px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+.hero-btn:hover {
+    background-color: red;
+}
+
+.hero-banner {
+    display: inline-block;
+    width: 35%;
+    margin-left: 0px; 
+    vertical-align: bottom;
+
+}
+
+.hero-banner img {
+    width: 500px;
+    height: 300px;
+    vertical-align: bottom;
+    margin-bottom: -20px;
+}
+
+@media (max-width: 700px) {
+    .hero-start {
+        height: 500px;
+        padding-bottom: 20px;
+    }
+
+    .hero-text {
+        display: block;
+        position: absolute;
+        width: 80%;
+        margin-top: 50px;
+        margin-left: 16px;
+    }
+
+    .hero-banner {
+        display: none;
+    }   
+}

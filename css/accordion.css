@@ -1,0 +1,34 @@
+/* Style for the accordion section */
+.accordion {
+    display: block;
+    width: 85%;
+    margin: 0 auto;
+}
+
+.accordion-title {
+    text-align: center;
+    font-size: 35px;
+}
+
+#accordion1, #accordion2, #accordion3 {
+    display: block;
+    width: 80%;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: left;
+    background-color: blue;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 8px;
+    margin: 0 auto;
+}
+
+#panel1, #panel2, #panel3 {
+    display: none;
+    width: 79%;
+    padding: 20px 5px 20px 15px;
+    background-color: #eee;
+    border-radius: 8px;
+    margin: 0 auto;
+}

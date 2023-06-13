@@ -1,0 +1,50 @@
+/* Style for the feature skills */
+.features {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.features-skill {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0,0.4);
+    margin: 10px 5px;
+    border-radius: 8px;
+}
+
+.icon {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    background-color: blue;
+    color: white;
+    padding: 40px;
+    border-radius: 50%;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.icon:hover {
+    background-color: deeppink;
+}
+
+.about-title {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 700px) {
+    .features-skill {
+        display: block;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 0;
+    }
+}
